@@ -1,21 +1,7 @@
-# Identicon
+# Identicon Generator
 
-**TODO: Add description**
+Generates and saves a unique identicon based on input string. Based on a project from Stephen Grider's Elixir course, with a few fixes and improvements.
 
-## Installation
+## Usage
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/identicon>.
-
+To run the generator, enter `mix start {string}` in your terminal from the project root directory, replacing `{string}` with your own custom input. Your identicon will be saved in the project root as `{string}.png`.
