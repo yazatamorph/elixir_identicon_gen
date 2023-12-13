@@ -25,4 +25,8 @@ identicon-*.tar
 # Temporary files, for example, from tests.
 /tmp/
 
+# ElixirLS VSCode extension files
+/.elixir_ls
+
+# Don't upload resulting images
 *.png
